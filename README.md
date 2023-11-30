@@ -41,7 +41,7 @@ Women are more likely do shoppinng in beauty stores, shoes stores, pharmacies an
 
 Using Shap analysis again, we were able to confirm our hypothesis and determine that class 0 represents women and class 1 represents men. The plot clearly shows that features related to women push the decision boundary towards the left, to class 0, reinforcing our belief that class 0 indeed signifies women.
 
-Additionally, it's worth mentioning that we also experimented with building an Fully-connected Neural Network (FCNN). You can find the details of its simple architecture in our 'models.py' file. Despite not being complex, this model achieved a respectable ROC-AUC score of 0.86.
+Additionally, it's worth mentioning that we also experimented with building an Fully-connected Neural Network (FCNN). You can find the details of its simple architecture in our 'FCNN.py' file. Despite not being complex, this model achieved a respectable ROC-AUC score of 0.86.
 
 Our best solution achieved a ROC-AUC of 0.8872, using a CatBoostClassifier. The model, trained on a huge dataset with 2000+ features and tuned to specific parameters for optimal performance, was then fitted on smaller data with 310 features, which blossomed into the finest result.
 
