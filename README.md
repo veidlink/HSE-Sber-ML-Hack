@@ -12,7 +12,7 @@
 Identifying client gender based on their transaction history 
 
 ## 📝 Workflow
-Initially, every transaction is described by only 8 features.
+Initially, every transaction is described by only 6 features.
 
 - **client_id** - id of client that completed transaction
 - **trans_time** - day from some starting day and time of transaction completion)
