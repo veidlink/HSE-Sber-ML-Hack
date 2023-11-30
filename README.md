@@ -5,7 +5,7 @@
 ## 🦸‍♂️ Team
 - [Solomon](https://github.com/veidlink)
 - [Mikhail](https://github.com/Tehnorobot)
-- [Vlad](https://github.com/veidlink/HSE-Sber-ML-Hack)
+- [Vlad](https://github.com/vladik-pwnz)
 - [Egor](https://github.com/REDISKA3000)
 
 ## 🎯 Task
