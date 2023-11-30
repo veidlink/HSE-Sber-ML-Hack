@@ -3,13 +3,10 @@
 "Is it true that our bank transactions also define us in some sense? Is it correct that our purchases can reveal a lot about us? Let's see if machine learning can answer this question!"
 
 ## 🦸‍♂️ Team
-[Solomon](https://github.com/veidlink)
-
-[Mikhail](https://github.com/Tehnorobot)
-
-[Vlad](https://github.com/veidlink/HSE-Sber-ML-Hack)
-
-[Egor](https://github.com/REDISKA3000)
+- [Solomon](https://github.com/veidlink)
+- [Mikhail](https://github.com/Tehnorobot)
+- [Vlad](https://github.com/veidlink/HSE-Sber-ML-Hack)
+- [Egor](https://github.com/REDISKA3000)
 
 ## 🎯 Task
 Identifying client gender based on their transaction history 
