@@ -1,6 +1,6 @@
 # HSE-Sber-ML-Hack - HACKATHON
 
-  "Is it true that our bank transactions also define us in some sense? Is it correct that our purchases can reveal a lot about us? Let's see if machine learning can answer this question!"
+"Is it true that our bank transactions also define us in some sense? Is it correct that our purchases can reveal a lot about us? Let's see if machine learning can answer this question!"
 
 ## 🦸‍♂️ Team
 - [Solomon](https://github.com/veidlink)
