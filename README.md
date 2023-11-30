@@ -23,14 +23,13 @@ term_id - id of terminal
 trans_city - city, where the transaction was completed
 gender - our traget feature
 
-![alt text]()
+![alt text](imgs/table.jpg)
 
 We performed feature engineering. This involved grouping each client's data by their client ID and other features (except terminal ID and transaction city). We also applied various discriptive statistics to get a detailed profile of each customer by generating more features. For a more comprehensive understanding, feel free to explore the 'transformation.py' file.
 
 Obtained new datasets 'new_train_big.csv' and 'new_test_big.csv', we experimented with diffrenent ML models. Using Optuna, we optimized hyperparameters for several gradient boosting algorithms like CatBoost, XGBoost, and LightGBM. Once we got our initial results, we focused on selecting the most relevant features. We used the Shap package to understand how important each feature was to our model. This package calculates a value called the Shapley value for each feature, indicating its average importance in the model.
 
-![alt text]()
-
+![alt text](imgs/shap_fals.jpg)
 
 It's noteworthy that this dataframe contains over 2000 features and is quite sparse as well. Many columns have a minimal impact on the prediction. We set 0.003 as the threshold for Shap values and dropped insignificant features, finally reducing the number to only 310.
 
@@ -38,7 +37,7 @@ This chart lets us make reliable guesses about how different features influenced
 
 Women are more likely do shoppinng in beauty stores, shoes stores, pharmacies and clothing stores. Whereas men are more likely to spend money on car service and car spare parts.
 
-![alt text]()
+![alt text](imgs/shap_force_plot.png)
 
 Using Shap analysis again, we were able to confirm our hypothesis and determine that class 0 represents women and class 1 represents men. The plot clearly shows that features related to women push the decision boundary towards the left, to class 0, reinforcing our belief that class 0 indeed signifies women.
 
@@ -57,3 +56,4 @@ Our best solution achieved a ROC-AUC of 0.8872, using a CatBoostClassifier. The 
 6. **loss_function ('Logloss')**: Used for binary classification tasks to optimize the model.
 7. **eval_metric ('AUC')**: Measures the model's performance for binary classification.
 
+![alt text](imgs/meme.jpg)
