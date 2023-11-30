@@ -14,14 +14,14 @@ Identifying client gender based on their transaction history
 ## 📝 Workflow
 Initially, every transaction is described by only 8 features.
 
-client_id - id of client that completed transaction
-trans_time - day from some starting day and time of transaction completion)
-mcc_code - merchant category code
-trans_type - type of transaction
-amount - amount of money that the cilent spent or received
-term_id - id of terminal
-trans_city - city, where the transaction was completed
-gender - our traget feature
+1. client_id - id of client that completed transaction
+2. trans_time - day from some starting day and time of transaction completion)
+3. mcc_code - merchant category code
+4. trans_type - type of transaction
+5. amount - amount of money that the cilent spent or received
+6. term_id - id of terminal
+7. trans_city - city, where the transaction was completed
+8. gender - our traget feature
 
 ![alt text](imgs/table.jpg)
 
